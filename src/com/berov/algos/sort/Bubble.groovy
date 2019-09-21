@@ -9,6 +9,9 @@ class Bubble implements Serializable {
   }
 
   def sort(arr) {
+    if (arr.size() < 2) {
+      return arr;
+    }
     int n = arr.size();
     int temp = 0;
       for(int i=0; i < n; i++){
