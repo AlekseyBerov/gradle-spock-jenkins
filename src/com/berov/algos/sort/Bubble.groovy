@@ -1,6 +1,6 @@
 package com.berov.algos.sort
 
-class Bubble implements Serializable {
+class Bubble {
 
   private final def mock
 
@@ -9,10 +9,11 @@ class Bubble implements Serializable {
   }
 
   def sort(arr) {
-    if (arr.size() < 2) {
+    int n = arr.size();
+    if (n < 2) {
       return arr;
     }
-    int n = arr.size();
+
     int temp = 0;
       for(int i=0; i < n; i++){
           for(int j=1; j < (n-i); j++){
