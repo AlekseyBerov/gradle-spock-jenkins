@@ -7,10 +7,9 @@ class IsSorted {
     if (n < 2) {
       return true;
     }
-
+    
     int sign = (2 * (asc ? 1 : 0)) - 1;
 
-    def flag = true;
     for (int i = 0; i < n-1; i++) {
       if (sign * arr[i] > sign * arr[i+1]) {
         return false;
