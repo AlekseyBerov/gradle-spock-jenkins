@@ -24,7 +24,6 @@ class Select {
         arr[min] = arr[i];
         arr[i] = tmp;
     }
-    println "In the end we have $arr";
     return arr;
   }
 }

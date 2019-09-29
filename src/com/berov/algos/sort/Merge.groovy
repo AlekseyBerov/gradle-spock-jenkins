@@ -46,7 +46,4 @@ class Merge {
     }
     return c;
   }
-
-
-
 }

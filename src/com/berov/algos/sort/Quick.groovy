@@ -29,8 +29,6 @@ class Quick {
         arr[k] = x;
         k++;
     }
-
     return arr;
   }
-
 }
