@@ -11,6 +11,4 @@ class Prime {
     return true;
   }
 
-
-
 }
