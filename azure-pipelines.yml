@@ -10,7 +10,10 @@ steps:
     echo >> https://aka.ms/yaml
     ls -la
     java -version
-    sudo apt-get install groovy
     groovy -version
     gradle -v
   displayName: 'Prepare for tests'
+  
+- script: |
+    gradle test
+  displayName: 'Test project'
