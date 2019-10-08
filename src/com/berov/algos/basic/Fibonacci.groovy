@@ -1,4 +1,4 @@
-package com.berov.algos.basic;
+package com.berov.algos.basic
 
 class Fibonacci {
 
@@ -10,7 +10,7 @@ class Fibonacci {
     (2..n).each {
         fib[it] = fib[it - 1] + fib[it - 2];
     }
-    return fib[-1];
+    return 99;
   }
 
 }
