@@ -5,14 +5,12 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo >> https://aka.ms/yaml
     ls -la
     java -version
     sudo apt-get install groovy
     groovy -version
+    gradle -v
   displayName: 'Prepare for tests'
