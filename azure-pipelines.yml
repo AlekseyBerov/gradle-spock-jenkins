@@ -11,7 +11,7 @@ steps:
     java -version
     gradle -v
   displayName: 'Prepare for tests'
-  
+
 - script: |
-    gradle test
+    gradle test --info
   displayName: 'Test project'
