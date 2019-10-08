@@ -2,7 +2,7 @@ package com.berov.algos.basic
 
 class Fibonacci {
 
-  def fib(int n) {
+  def getFib(int n) {
     if (n <= 1) {
       return n;
     }
@@ -10,7 +10,7 @@ class Fibonacci {
     (2..n).each {
         fib[it] = fib[it - 1] + fib[it - 2];
     }
-    return 99;
+    return fib[-1];
   }
 
 }

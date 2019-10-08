@@ -15,7 +15,7 @@ class FibonacciShould extends Specification {
 
   def 'Expect from Fibonacci'() {
     expect:
-      fibonacci.fib(x) == y
+      fibonacci.getFib(x) == y
 
     where:
                    x    |    y
